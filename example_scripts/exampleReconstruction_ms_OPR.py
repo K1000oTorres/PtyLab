@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 import numpy as np
 
 # Location of the preprocessed data file
-filePath = '../example_data/OPR_dp_processed.hdf5'
+filePath = './example_data/OPR_dp_processed.hdf5'
 experimentalData, reconstruction, params, monitor, ePIE_engine = PtyLab.easyInitialize(filePath, operationMode='CPM')
 
 # First set the experimental geometry
@@ -85,20 +85,20 @@ params.OPR_tsvd_type = 'randomized' # activates randomized OPR which is faster
 
 # First run a view mPIE iterations
 engine_mPIE = Engines.mPIE(reconstruction, experimentalData, params, monitor)
-engine_mPIE.numIterations = 25
+engine_mPIE.numIterations = 5
 engine_mPIE.betaProbe = 0.25
 engine_mPIE.betaObject = 0.25
 engine_mPIE.reconstruct()
 
 # Now start the OPR
 engine_OPR = Engines.OPR(reconstruction, experimentalData, params, monitor)
-engine_OPR.numIterations = 100 
+engine_OPR.numIterations = 10 
 engine_OPR.betaProbe = 0.99
 engine_OPR.betaObject = 0.99
 engine_OPR.reconstruct()
 
 # Save test results
-reconstruction.saveResults(fileName="recons/test")
+reconstruction.saveResults(fileName="./PtyLab/recons/test")
 # This saves the probe stack (be care full, this array contains a
 # probe for each position. Therefore it will require a lot of memory!
-reconstruction.saveResults(fileName="recons/test__22", type='probe_stack')
+reconstruction.saveResults(fileName="./PtyLab/recons/test__22", type='probe_stack')

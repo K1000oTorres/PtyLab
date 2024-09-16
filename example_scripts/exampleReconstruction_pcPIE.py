@@ -25,7 +25,7 @@ filePath = getExampleDataFolder() / fileName
 
 exampleData = ExperimentalData(filePath, operationMode="CPM")
 # initialize again reconstruction and engine with the wrong encoder data
-reconstruction = Reconstruction(exampleData)
+reconstruction = Reconstruction(exampleData) # needs params
 
 # perturb encoder positions
 maxPosError = 10

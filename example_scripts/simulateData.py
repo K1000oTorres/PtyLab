@@ -30,6 +30,7 @@ binningFactor = 1
 # detector coordinates
 Nd = 2**7
 dxd = 2**11 / Nd * 4.5e-6
+print("detector pixel size: %.2f (um)" % (dxd * 1e6))
 Ld = Nd * dxd
 
 # probe coordinates

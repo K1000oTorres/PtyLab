@@ -1,0 +1,118 @@
+NA
+    Attribute: CLASS: ARRAY
+    Attribute: FLAVOR: numpy
+    Attribute: Shape: []
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: Type: float64
+    Attribute: VERSION: 2.4
+    Shape: ()
+    Type: float64
+dxd
+    Attribute: CLASS: ARRAY
+    Attribute: FLAVOR: numpy
+    Attribute: Shape: []
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: Type: float64
+    Attribute: VERSION: 2.4
+    Shape: ()
+    Type: float64
+encoder
+    Attribute: CLASS: ARRAY
+    Attribute: FLAVOR: numpy
+    Attribute: Shape: [25  2]
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: Type: float64
+    Attribute: VERSION: 2.4
+    Shape: (25, 2)
+    Type: float64
+magnification
+    Attribute: CLASS: ARRAY
+    Attribute: FLAVOR: numpy
+    Attribute: Shape: []
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: Type: float64
+    Attribute: VERSION: 2.4
+    Shape: ()
+    Type: float64
+ptychogram
+    Attribute: CLASS: ARRAY
+    Attribute: FLAVOR: numpy
+    Attribute: Shape: [  25 2160 2560]
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: Type: float64
+    Attribute: VERSION: 2.4
+    Shape: (25, 2160, 2560)
+    Type: float64
+wavelength
+    Attribute: CLASS: ARRAY
+    Attribute: FLAVOR: numpy
+    Attribute: Shape: []
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: Type: float64
+    Attribute: VERSION: 2.4
+    Shape: ()
+    Type: float64
+zled
+    Attribute: CLASS: ARRAY
+    Attribute: FLAVOR: numpy
+    Attribute: Shape: []
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: Type: float64
+    Attribute: VERSION: 2.4
+    Shape: ()
+    Type: float64
+
+
+
+    --------------------------------------------
+
+
+NA
+    Attribute: CLASS: b'ARRAY'
+    Attribute: FLAVOR: b'numpy'
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: VERSION: b'2.4'
+    Shape: ()
+    Type: float64
+dxd
+    Attribute: CLASS: b'ARRAY'
+    Attribute: FLAVOR: b'numpy'
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: VERSION: b'2.4'
+    Shape: ()
+    Type: float64
+encoder
+    Attribute: CLASS: b'ARRAY'
+    Attribute: FLAVOR: b'numpy'
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: VERSION: b'2.4'
+    Shape: (81, 2)
+    Type: float64
+magnification
+    Attribute: CLASS: b'ARRAY'
+    Attribute: FLAVOR: b'numpy'
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: VERSION: b'2.4'
+    Shape: ()
+    Type: float64
+ptychogram
+    Attribute: CLASS: b'ARRAY'
+    Attribute: FLAVOR: b'numpy'
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: VERSION: b'2.4'
+    Shape: (81, 128, 128)
+    Type: float64
+wavelength
+    Attribute: CLASS: b'ARRAY'
+    Attribute: FLAVOR: b'numpy'
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: VERSION: b'2.4'
+    Shape: ()
+    Type: float64
+zled
+    Attribute: CLASS: b'ARRAY'
+    Attribute: FLAVOR: b'numpy'
+    Attribute: TITLE: Empty(dtype=dtype('S1'))
+    Attribute: VERSION: b'2.4'
+    Shape: ()
+    Type: float64

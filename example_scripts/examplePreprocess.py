@@ -11,7 +11,7 @@ import h5py
 
 
 filePathForRead = r"D:\Du\Workshop\ptylab.m\lenspaper4\AVT camera (GX1920)"
-filePathForSave = r"D:\Du\Workshop\ptylab.py\example_data"
+filePathForSave = r"C:\Users\Dell\Documents\GitHub\PtyLab.py\example_data"
 # D:\Du\Workshop\fracmat\lenspaper4\AVT camera (GX1920)
 # D:/fracmat/ptyLab/lenspaper4/AVT camera (GX1920)
 os.chdir(filePathForRead)
