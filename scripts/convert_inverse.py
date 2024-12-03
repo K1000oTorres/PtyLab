@@ -2,7 +2,7 @@ import h5py
 import os
 
 # Path to your .mat file
-h5_file = "C:\\Users\\Dell\\Documents\\GitHub\\PtyLab.py\\example_data\\USAFTargetFPM.hdf5"
+h5_file = "/Users/User/Documents/Ptychography/PtyLab.py/datasets/LungCarcinomaFPM.hdf5"
 
 # New path for the .h5 file (change the extension)
 mat_file = os.path.splitext(h5_file)[0] + '.mat'

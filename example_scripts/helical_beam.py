@@ -8,6 +8,7 @@ try:
     matplotlib.use("tkagg") # this is for people using pycharm pro
 except:
     pass
+    
 import PtyLab
 from PtyLab import Reconstruction
 from PtyLab import Engines

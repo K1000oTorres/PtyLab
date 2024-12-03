@@ -45,8 +45,10 @@ def print_file_info(file_path):
             print("No 'encoder' dataset found in the file.")
             return None
 
-file_path = "C:\\Users\\Dell\\Documents\\GitHub\\PtyLab.py\\example_data\\USAFTargetFPM.hdf5"
-file_path = "C:\\Users\\Dell\\Documents\\GitHub\\PtyLab.py\\example_data\\stained_histology_1LED.hdf5"
+#file_path = "/Users/User/Documents/Ptychography/PtyLab.py/datasets/LungCarcinomaFPM.hdf5"
+#file_path = "/Users/User/Documents/Ptychography/PtyLab.py/datasets/USAFTargetFPM.hdf5"
+file_path = "/Users/User/Documents/Ptychography/PtyLab.py/FPM_generator-master/FPM_generator-master/datasets/2024_11_22/my_FPM_dataset.h5"
+
 encoder = print_file_info(file_path)
 
 if encoder is not None:

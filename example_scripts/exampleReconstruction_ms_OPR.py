@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 import numpy as np
 
 # Location of the preprocessed data file
-filePath = './example_data/OPR_dp_processed.hdf5'
+filePath = '/Users/User/Documents/Ptychography/PtyLab.py/example_data/OPR_dp_processed.hdf5'
 experimentalData, reconstruction, params, monitor, ePIE_engine = PtyLab.easyInitialize(filePath, operationMode='CPM')
 
 # First set the experimental geometry
@@ -98,7 +98,8 @@ engine_OPR.betaObject = 0.99
 engine_OPR.reconstruct()
 
 # Save test results
-reconstruction.saveResults(fileName="./PtyLab/recons/test")
+reconstruction.saveResults(fileName="C:\\Users\\User\\Documents\\Ptychography\\PtyLab.py\\example_data\\recons\\test.hdf5")
+
 # This saves the probe stack (be care full, this array contains a
 # probe for each position. Therefore it will require a lot of memory!
-reconstruction.saveResults(fileName="./PtyLab/recons/test__22", type='probe_stack')
+#reconstruction.saveResults(fileName="C:\\Users\\User\\Documents\\Ptychography\\PtyLab.py\\example_data\\recons\\test__22", type='probe_stack')

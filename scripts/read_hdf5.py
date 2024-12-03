@@ -1,7 +1,12 @@
 import h5py
 
 # Open the HDF5 file
-file_path = 'C:\\Users\\Dell\\Documents\\GitHub\\PtyLab.py\\example_data\\LungCarcinomaFPM.hdf5'  # Replace with your file path
+file_path = "/Users/User/Documents/Ptychography/PtyLab.py/datasets/simu.hdf5"
+#file_path = "/Users/User/Documents/Ptychography/PtyLab.py/datasets/USAF_speckle_bin4.hdf5"
+#file_path = "/Users/User/Documents/Ptychography/PtyLab.py/example_data/recons/test.hdf5"
+#file_path = "/Users/User/Documents/Ptychography/PtyLab.py/FPM_generator-master/FPM_generator-master/datasets/2024_11_15/my_FPM_dataset.h5"
+
+
 with h5py.File(file_path, 'r') as hdf5_file:
     # Access a specific group or dataset
     # For example, to access a dataset or group named 'my_dataset'
@@ -11,6 +16,7 @@ with h5py.File(file_path, 'r') as hdf5_file:
     print(f'Data: {dataset_or_group[0]}')
     
     data = dataset_or_group[0]
+    print("La longitud de data es: ",data.shape)
 
     # # Read the attribute
     # attribute_name = 'Type'  # Replace with the attribute name you want to read

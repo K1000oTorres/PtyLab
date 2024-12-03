@@ -2,9 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
+
 # Load the images
-dog = cv2.imread("C:\\Users\\Dell\\Downloads\\dog-112-298x300.png")
-car = cv2.imread("C:\\Users\\Dell\\Downloads\\Car.png")
+dog = cv2.imread("/Users/User/Documents/Ptychography/PtyLab.py/FPM_generator-master/FPM_generator-master/imgs/James_Clerk_Maxwell.png")
+car = cv2.imread("/Users/User/Documents/Ptychography/PtyLab.py/FPM_generator-master/FPM_generator-master/imgs/PiotrZakrzewski_5197202.png")
 
 # Check if images are loaded
 if dog is None or car is None:

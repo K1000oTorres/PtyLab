@@ -20,7 +20,7 @@ change data visualization and initialization options manually for now
 """
 
 
-fileName = "simu.hdf5"  # simu.hdf5 or Lenspaper.hdf5
+fileName = "/Users/User/Documents/Ptychography/PtyLab.py/example_data/simu.hdf5"  # simu.hdf5 or Lenspaper.hdf5
 filePath = getExampleDataFolder() / fileName
 
 exampleData = ExperimentalData(filePath, operationMode="CPM")

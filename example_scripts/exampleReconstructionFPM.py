@@ -21,7 +21,8 @@ change data visualization and initialization options manually for now
 """
 
 # download the example file from one of the suggested repositories
-fileName = "LungCarcinomaFPM.hdf5"  # simu.hdf5 or Lenspaper.hdf5
+#fileName = "/Users/User/Documents/Ptychography/PtyLab.py/datasets/LungCarcinomaFPM.hdf5"  # simu.hdf5 or Lenspaper.hdf5
+fileName = "/Users/User/Documents/Ptychography/PtyLab.py/datasets/USAFTargetFPM.hdf5"
 filePath = getExampleDataFolder() / fileName
 
 exampleData, reconstruction, params, monitor, engine, calib = PtyLab.easyInitialize(
