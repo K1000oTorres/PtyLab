@@ -62,11 +62,4 @@ If you use this package in your work, cite us as below.
         year = {2023},
         doi = {10.1364/OE.485370},
 }
-```
-"# Fourier-Ptychography-Microscopy" 
-"# Fourier-Ptychography-Microscopy" 
-"# Fourier-Ptychography-Microscopy" 
-"# PtyLab" 
-"# PtyLab" 
-"# PtyLab" 
-"# PtyLab" 
+``` 
