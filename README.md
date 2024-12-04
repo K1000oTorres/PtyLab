@@ -28,6 +28,7 @@ Please clone this repository and navigate to the root folder
 ```bash
 git clone git@github.com:PtyLab/PtyLab.py.git
 cd PtyLab.py
+pip install .
 ```
 
 Inside a virtual environment (preferably with conda), please install `ptylab` and its dependencies:
