@@ -52,7 +52,10 @@ conda venv create -f env_EX01.yml
 conda activate EX01
 pip install -e .[dev]
 ```
-
+In PtyLab you will find two types of modalities FTM and CTM, the choice of the dataset will depend on the modality, for FTM use these datasets:
+```bash
+https://figshare.com/articles/figure/PtyLab_FPM_data/19111472
+```
 If you would like to contribute to this package, please checkout the [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
 
 ## Citation
