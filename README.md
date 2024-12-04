@@ -26,7 +26,7 @@ This package uses `cupy` to utilize GPU for faster reconstruction. Please check 
  
 Please clone this repository and navigate to the root folder
 ```bash
-git clone git@github.com:PtyLab/PtyLab.py.git
+git clone https://github.com/PtyLab/PtyLab.py.git
 cd PtyLab.py
 pip install .
 ```
