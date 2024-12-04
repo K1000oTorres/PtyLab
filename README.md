@@ -37,11 +37,20 @@ conda create --name ptylab_venv python=3.11.5 # or python version satisfying ">=
 conda activate ptylab_venv
 pip install -e .[dev]
 ```
-
+In the same folder download the following repository:
+```bash
+git clone https://github.com/dannielsantiago/FPM_generator
+```
 To use the GPU, `cupy` can be additionally installed in this environment.
 
 ```bash
 conda install -c conda-forge cupy
+```
+You can also create your environment from the .yml file as follows:
+```bash
+conda venv create -f env_EX01.yml
+conda activate EX01
+pip install -e .[dev]
 ```
 
 If you would like to contribute to this package, please checkout the [`CONTRIBUTING.md`](CONTRIBUTING.md) file.
